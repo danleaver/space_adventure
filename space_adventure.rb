@@ -6,6 +6,9 @@
 #use a gem 'faker'
 #pushing to git 
 
+require "faker"
+
+puts Faker::Name.name
 class Beginning
 end
 
